@@ -1,0 +1,18 @@
+---
+# ArmorEffect by refaltor
+# besoin d'aide : Refaltor#7750 sur discord
+# Config infini, effet infini
+
+317:
+  effect:
+    1:
+      niveau: 1
+      visible: false
+
+
+314:
+  effect:
+    16:
+      niveau: 1
+      visible: false
+...
