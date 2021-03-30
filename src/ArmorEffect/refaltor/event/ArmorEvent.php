@@ -22,7 +22,7 @@ class ArmorEvent implements Listener
       $armor = Main::Config()->getConfig()->getAll()[$nouveau->getId()];
       $effect = $armor["effect"];
        foreach($effect as $id => $values){
-       $player->addEffect(new EffectInstance(Effect::getEffect($id), -1, $values["niveau"], $values["visible"]));
+       $player->addEffect(new EffectInstance(Effect::getEffect($id), 2147483646, $values["niveau"], $values["visible"]));
        }
       }elseif(in_array($ancien->getId(), $inConfigIds)){
        $armor = Main::Config()->getConfig()->getAll()[$ancien->getId()];
